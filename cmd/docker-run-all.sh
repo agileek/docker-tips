@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm -f $PWD/dataFolder-bad-cmd
-rm -f $PWD/dataFolder-good-cmd
+sudo rm -rf $PWD/dataFolder-bad-cmd
+sudo rm -rf $PWD/dataFolder-good-cmd
 
 docker rm docker-stop-test-bad-container
 docker rm docker-stop-test-good-container
